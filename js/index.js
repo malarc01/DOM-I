@@ -68,14 +68,14 @@ document.querySelectorAll('a')[5].textContent = siteContent["nav"]["nav-item-6"]
 //document.querySelector('a').textContent = siteContent["nav"]["nav-item-1"]
 document.querySelector('button').textContent = siteContent["cta"]["button"]
 
-
+//features
 document.querySelector('h4').textContent = siteContent["main-content"]["features-h4"]
 document.querySelector('p').textContent = siteContent["main-content"]["features-content"]
-
+//about
 document.querySelectorAll('h4')[1].textContent = siteContent["main-content"]["about-h4"]
 document.querySelectorAll('p')[1].textContent = siteContent["main-content"]["about-content"]
 
-
+//features
 document.querySelector('h4').textContent = siteContent["main-content"]["features-h4"]
 document.querySelectorAll('h4').textContent = siteContent["main-content"]["features-h4"]
 
@@ -103,7 +103,18 @@ document.querySelectorAll('p')[7].textContent = siteContent["contact"]["email"]
 //footer
 document.querySelectorAll('p')[8].textContent = siteContent["footer"]["copyright"]
 
+//green text
+document.querySelector('header nav a').style.color = 'green';
 
+document.querySelectorAll('header nav a')[1].style.color = 'green';
+
+
+document.querySelectorAll('header nav a')[2].style.color = 'green';
+
+document.querySelectorAll('header nav a')[3].style.color = 'green';
+document.querySelectorAll('header nav a')[4].style.color = 'green';
+document.querySelectorAll('header nav a')[5].style.color = 'green';
+document.querySelectorAll('header nav a')[6].appendChild('test')
 
 
 //let navItem1 = document.querySelector('a');
