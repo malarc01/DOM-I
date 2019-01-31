@@ -114,6 +114,34 @@ document.querySelectorAll('header nav a')[2].style.color = 'green';
 document.querySelectorAll('header nav a')[3].style.color = 'green';
 document.querySelectorAll('header nav a')[4].style.color = 'green';
 document.querySelectorAll('header nav a')[5].style.color = 'green';
+
+// var p = document.createElement("p");
+// var parent = document.createElement("div");
+// var p = document.createElement("p");
+// parent.prepend("Some text", p);
+
+const newElement = document.createElement('a')
+console.log(newElement)
+
+newElement.setAttribute('href','#')
+newElement.textContent = 'New Anchor'
+const mainNav = document.querySelector('header nav')
+mainNav.prepend(newElement)
+
+const newerElement = document.createElement('a')
+console.log(newerElement)
+
+newerElement.setAttribute('href','#')
+newerElement.textContent = 'Newer Anchor'
+const mainNavigation = document.querySelector('header nav')
+mainNavigation.appendChild(newerElement)
+
+
+
+
+
+
+
 document.querySelectorAll('header nav a')[6].appendChild('test')
 
 
